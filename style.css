@@ -1,0 +1,19 @@
+.typewriter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    min-height: 100svh;
+}
+.typewriter h1{
+    display: inline-block;
+    border-right: 2px solid orange;
+    white-space: nowrap;
+    overflow: hidden;
+    letter-spacing: 1px;
+    animation: blink 1s step-end infinite;
+}
+@keyframes blink{
+    from,to{border-color: transparent;}
+    50%{border-color: orange;}
+}
